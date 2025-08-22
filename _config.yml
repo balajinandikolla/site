@@ -13,14 +13,21 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
+title: Balaji Nandikolla
+email: balaji.nandikolla@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 twitter_username: username
-github_username: username
+github_username: balajinandikolla
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://balajinandikolla.github.io" # the base hostname & protocol
+lang: en # the language of your site, e.g. en, fr, de, etc.
+# This is used to set the language of the HTML tag, e.g. <html lang="en">.
+# It is also used to set the language of the RSS feed, e.g. <rss lang="en">.
+# If you want to use a different language for the RSS feed, you can set it
+# in the feed.xml file using the `lang` attribute, e.g. <rss lang="fr">.  
 minimal_mistakes_skin: default
 search: true
 
@@ -58,7 +65,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Balaji Nandikolla"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
